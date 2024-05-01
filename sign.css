@@ -29,6 +29,7 @@
  }
 
 .signing .input-box{
+    width: 10px;
     position: relative;
     width: 100%;
     height: 50px;
@@ -37,16 +38,16 @@
 }
 
 .input-box .input{
-    width: 100%;
-    height: 100%;
+    line-height: 100px;
     background: transparent;
     border: none;
     outline: none;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 40px;
-    font-size: 16px;
+    font-size: 20px;
     color:#fff;
     padding: 20px 45px 20px 20px;
+    line-height: 28px;
 }
 
 .input-box i{
